@@ -1,0 +1,9 @@
+<div>
+    <h1> Upcoming Angular Events </h1>
+    <hr />
+    <div *ngFor="let event of events" class="col-md-5">
+        <event-thumbnail #thumbnail  [event]="event" (eventClickEmitter)  = "thumbnailClick($event)"></event-thumbnail>
+    </div>
+    
+    <button class = "btn btn-danger" (click) = "thumbnail.byeHappiness($event)">bye </button>
+</div>

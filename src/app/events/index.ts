@@ -1,0 +1,7 @@
+export * from './services/event.service'
+export * from './services/events-list-resolver.service'
+export * from './services/event-route-activator.service'
+export * from './create-event.component'
+export * from './event-details.component'
+export * from './event-thumbnail.component'
+export * from './events-list.component'
